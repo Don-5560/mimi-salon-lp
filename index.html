@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>韓国肌管理MIMI｜ポテンツァ全顔 初回9,500円</title>
+  <meta name="description" content="韓国の肌管理で、もう肌で悩まない。ポテンツァ（全顔）初回9,500円。毛穴・ニキビ跡・たるみを本気で改善する韓国肌管理MIMIへ。" />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Klee+One:wght@400;600&family=Noto+Sans+JP:wght@300;400;500;700;900&family=Noto+Serif+JP:wght@400;700&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- ===== NAV ===== -->
+  <nav class="nav" id="nav" aria-label="メインナビゲーション">
+    <a href="#" class="nav__logo" aria-label="韓国肌管理MIMI トップへ">
+      <img src="images/logo.png" alt="MIMI 韓国肌管理" class="nav__logo-img" />
+    </a>
+    <ul class="nav__list">
+      <li><a href="#effects" class="nav__link">お悩み</a></li>
+      <li><a href="#price" class="nav__link">料金</a></li>
+      <li><a href="#faq" class="nav__link">質問</a></li>
+      <li><a href="#booking" class="nav__link">ご予約</a></li>
+    </ul>
+    <div class="lang-wrap" id="langWrap">
+      <button class="lang-globe" id="langToggle" aria-haspopup="listbox" aria-expanded="false" aria-label="言語を選択">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+          <circle cx="12" cy="12" r="10"/>
+          <path d="M2 12h20"/>
+          <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/>
+        </svg>
+      </button>
+      <ul class="lang-dropdown" id="langDropdown" role="listbox" aria-label="言語選択">
+        <li><button class="lang-option lang-option--active" data-lang="ja" role="option" aria-selected="true"><span class="lang-flag">🇯🇵</span>日本語</button></li>
+        <li><button class="lang-option" data-lang="ko" role="option" aria-selected="false"><span class="lang-flag">🇰🇷</span>한국어</button></li>
+        <li><button class="lang-option" data-lang="en" role="option" aria-selected="false"><span class="lang-flag">🇺🇸</span>English</button></li>
+        <li><button class="lang-option" data-lang="tw" role="option" aria-selected="false"><span class="lang-flag">🇹🇼</span>繁體中文</button></li>
+      </ul>
+    </div>
+  </nav>
+
+  <main>
+
+    <!-- ===== HERO ===== -->
+    <section class="hero" aria-label="ヒーロー">
+      <div class="hero__img-wrap">
+        <img
+          src="images/hero.png"
+          alt="韓国の「肌管理」で、史上最高の自分へ。肌から新生活。韓国肌管理MIMI ポテンツァ全顔 初回9,500円"
+          class="hero__img"
+          width="828"
+          height="1082"
+          fetchpriority="high"
+        />
+      </div>
+      <!-- LINE banner（URLは後から設定） -->
+      <a href="#" class="line-banner" aria-label="LINEから簡単ご予約・お問い合わせ">
+        <img src="images/line-banner.png" alt="LINEから簡単ご予約・お問い合わせ" width="1200" height="400" />
+      </a>
+      <!-- キャンペーン -->
+      <div class="price-banner-wrap" id="campaign">
+        <img src="images/price-banner.png" alt="今だけ！初回限定価格 9,500円（税込）" width="750" height="1200" />
+      </div>
+    </section>
+
+    <!-- ===== ABOUT ===== -->
+    <section class="about-img-section" id="about">
+      <div class="about-img-wrap">
+        <img src="images/about-banner.png" alt="ポテンツァとは｜お悩み・料金" class="full-img" width="900" height="1200" />
+      </div>
+    </section>
+
+    <!-- ===== FLOW ===== -->
+    <section class="about-img-section" id="flow">
+      <div class="flow-img-wrap">
+        <img src="images/flow-banner.png" alt="施術の流れ" class="full-img" width="900" height="1200" />
+      </div>
+    </section>
+
+    <!-- ===== FAQ ===== -->
+    <section class="section faq" id="faq" aria-labelledby="faq-heading">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title" id="faq-heading">よくある質問</h2>
+        </div>
+        <dl class="faq__list">
+          <div class="faq-item">
+            <dt>
+              <button class="faq-item__q" aria-expanded="false">
+                <span>痛みはありますか？</span>
+                <svg class="faq-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><polyline points="6 9 12 15 18 9"/></svg>
+              </button>
+            </dt>
+            <dd class="faq-item__a"><p>麻酔クリームを使用するため、施術中の痛みは最小限に抑えられます。「チクチクする程度」「思ったより痛くなかった」とおっしゃる方が多いです。</p></dd>
+          </div>
+          <div class="faq-item">
+            <dt>
+              <button class="faq-item__q" aria-expanded="false">
+                <span>ダウンタイムはどのくらいですか？</span>
+                <svg class="faq-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><polyline points="6 9 12 15 18 9"/></svg>
+              </button>
+            </dt>
+            <dd class="faq-item__a"><p>施術後に赤みや少量の点状出血が出る場合がありますが、多くの場合は数時間〜翌日には落ち着きます。翌日からは通常のメイクが可能です。</p></dd>
+          </div>
+          <div class="faq-item">
+            <dt>
+              <button class="faq-item__q" aria-expanded="false">
+                <span>何回受ければ効果が出ますか？</span>
+                <svg class="faq-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><polyline points="6 9 12 15 18 9"/></svg>
+              </button>
+            </dt>
+            <dd class="faq-item__a"><p>1回でもツヤや肌触りの変化を感じる方が多いですが、毛穴・ニキビ跡の本格的な改善は3〜5回の継続がおすすめです。施術間隔は4〜6週間が目安です。</p></dd>
+          </div>
+          <div class="faq-item">
+            <dt>
+              <button class="faq-item__q" aria-expanded="false">
+                <span>どんな肌タイプでも受けられますか？</span>
+                <svg class="faq-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><polyline points="6 9 12 15 18 9"/></svg>
+              </button>
+            </dt>
+            <dd class="faq-item__a"><p>基本的にどの肌タイプにも対応できますが、敏感肌・アトピー性皮膚炎・妊娠中の方など一部ご受診いただけない場合があります。カウンセリングで詳しくお伺いします。</p></dd>
+          </div>
+          <div class="faq-item">
+            <dt>
+              <button class="faq-item__q" aria-expanded="false">
+                <span>施術後に気をつけることは？</span>
+                <svg class="faq-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><polyline points="6 9 12 15 18 9"/></svg>
+              </button>
+            </dt>
+            <dd class="faq-item__a"><p>施術後1週間は日焼け止めをしっかり使用し、紫外線対策を徹底してください。強いスクラブや刺激の強いスキンケア、当日のサウナ・激しい運動はお控えください。</p></dd>
+          </div>
+        </dl>
+      </div>
+    </section>
+
+
+    <!-- ===== ACCESS ===== -->
+    <section class="section access" id="access" aria-labelledby="access-heading">
+      <div class="container">
+        <div class="section-header">
+          <p class="section-eyebrow">Access</p>
+          <h2 class="section-title" id="access-heading">アクセス・営業時間</h2>
+        </div>
+
+        <div class="access__layout">
+          <div class="access__info">
+            <div class="access__block">
+              <h3 class="access__label">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 10c0 7-9 13-9 13S3 17 3 10a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+                住所
+              </h3>
+              <p class="access__text">〒300-1403<br />茨城県稲敷郡河内町金江津4146</p>
+            </div>
+            <div class="access__block">
+              <h3 class="access__label">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+                営業時間
+              </h3>
+              <div class="access__hours">
+                <div class="hours-row">
+                  <span class="hours-day">月〜金</span>
+                  <span class="hours-time">10:00 〜 20:00</span>
+                </div>
+                <div class="hours-row">
+                  <span class="hours-day">土・日・祝</span>
+                  <span class="hours-time">10:00 〜 18:00</span>
+                </div>
+                <div class="hours-row hours-row--closed">
+                  <span class="hours-day">定休日</span>
+                  <span class="hours-time">毎週水曜日</span>
+                </div>
+              </div>
+            </div>
+            <div class="access__block">
+              <h3 class="access__label">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 12a19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 3.6 1.27h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L7.91 8.71a16 16 0 0 0 6 6l.86-.86a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 21.73 16a1.94 1.94 0 0 1-.81.92z"/></svg>
+                電話番号
+              </h3>
+              <p class="access__text"><a href="tel:00-0000-0000" class="access__tel">00-0000-0000</a></p>
+            </div>
+          </div>
+
+          <div class="access__map">
+            <iframe
+              src="https://maps.google.com/maps?q=茨城県稲敷郡河内町金江津4146&output=embed&hl=ja"
+              width="100%"
+              height="100%"
+              style="border:0;"
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+              title="韓国肌管理MIMI 地図"
+              class="access__iframe">
+            </iframe>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="footer">
+    <div class="container footer__inner">
+      <a href="#" class="header__logo" aria-label="韓国肌管理MIMI トップへ">
+        <span class="logo-kr">韓国肌管理</span><span class="logo-name" style="color:#F9A8D4">MIMI</span>
+      </a>
+      <nav aria-label="フッターナビ">
+        <ul class="footer__links">
+          <li><a href="#about">ポテンツァとは</a></li>
+          <li><a href="#effects">お悩み</a></li>
+          <li><a href="#flow">施術の流れ</a></li>
+          <li><a href="#price">料金</a></li>
+          <li><a href="#faq">FAQ</a></li>
+          <li><a href="#booking">予約</a></li>
+        </ul>
+      </nav>
+    </div>
+    <p class="footer__copy">&copy; 2024 韓国肌管理MIMI. All rights reserved.</p>
+  </footer>
+
+  <!-- ===== STICKY CTA ===== -->
+  <div class="sticky-cta" id="stickyCta">
+    <div class="sticky-cta__inner">
+      <div class="sticky-cta__info">
+        <span class="sticky-cta__label">ポテンツァ（全顔）初回</span>
+        <span class="sticky-cta__price">9,500円</span>
+      </div>
+      <a href="#booking" class="btn btn--primary">今すぐ予約</a>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
